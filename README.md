@@ -4,7 +4,7 @@ This is a C++ implementation of a basic, general-purpose feedworward neural netw
 
 There are many ready-and-easy-to-use NN frameworks for C++ and especially Python which -to some degree- allow you to avoid making your feet wet with the nuts&bolts of the underlying principles. But I wanted to learn the fundamentals and create my own, working NN from scratch, without any external dependencies.
 
-The main program's purpose is to train a NN to detect handwritten digits as provided by the [MNIST dataset](https://github.com/phoebetronic/mnist+). Since the MNIST dataset contains 28x28 pixel large annotated pictures of handwritten digits, the input layer of the program's neural network has 28x28=784 neurons. And since there are 10 different digits to be detected, the output layer has 10 neurons. Each neuron's output indicates the (non-)detection of a specific digit - the neuron with the highest output value "wins the vote", so to speak.
+The main program's purpose is to train a NN to detect handwritten digits as provided by the [MNIST dataset](https://pjreddie.com/projects/mnist-in-csv/). Since the MNIST dataset contains 28x28 pixel large annotated pictures of handwritten digits, the input layer of the program's neural network has 28x28=784 neurons. And since there are 10 different digits to be detected, the output layer has 10 neurons. Each neuron's output indicates the (non-)detection of a specific digit - the neuron with the highest output value "wins the vote", so to speak.
 
 In the hidden layer, there are 100 neurons. This number has been chosen by trial and error. Altogether, the network achieves a detection rate of about 95%.
 
