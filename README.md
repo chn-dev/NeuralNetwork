@@ -180,7 +180,7 @@ err(w_1, .., w_n) = { 1 \over 2 } \delta ^ 2 = { 1 \over 2 } ( t - o ) ^ 2
 = { 1 \over 2 } ( t - { 1 \over { 1 + e ^ { -\sum_{k = 1}^{n}{i_k w_k} ) } } } ) ^ 2
 $$
 
-This is the multidimensional error function, with the input weights $w_1, .., w_n$ being the variables which we try to successively reduce by adjusting the input weights. And we do this with a technique called gradient descent.
+This is the multidimensional error function, with the input weights $w_1, .., w_n$ being the variables. We we try to successively reduce the error by adjusting the input weights. This can be done with a technique called gradient descent.
 
 #### Gradient Descent
 
